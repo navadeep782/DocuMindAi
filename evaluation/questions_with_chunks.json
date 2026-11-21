@@ -1,0 +1,717 @@
+[
+  {
+    "id": "dbms-001",
+    "question": "What is data in the context of a database system?",
+    "expected_answer": "Data is a collection of raw, unorganized facts such as text, observations, figures and symbols. By itself it may have little meaning until it is processed.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      1
+    ],
+    "relevant_chunk_ids": [
+      1
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-002",
+    "question": "How does information differ from raw data?",
+    "expected_answer": "Information is data that has been processed, organized and structured to provide context and support decision-making; data is the raw input.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      1
+    ],
+    "relevant_chunk_ids": [
+      2,
+      4
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-003",
+    "question": "What are the major disadvantages of a file-processing system that a DBMS addresses?",
+    "expected_answer": "The notes list data redundancy and inconsistency, difficult data access, data isolation, integrity problems, atomicity problems, concurrent-access anomalies and security problems.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      2
+    ],
+    "relevant_chunk_ids": [
+      7
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-004",
+    "question": "What is the purpose of data abstraction in a DBMS?",
+    "expected_answer": "Data abstraction hides storage and implementation details and gives users a simplified view of the data through different abstraction levels.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      3
+    ],
+    "relevant_chunk_ids": [
+      9
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-005",
+    "question": "What does the physical or internal level of database abstraction describe?",
+    "expected_answer": "It is the lowest abstraction level and describes how data is physically stored, including low-level storage structures and allocation decisions.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      3
+    ],
+    "relevant_chunk_ids": [
+      10
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-006",
+    "question": "What information is described by the logical or conceptual database level?",
+    "expected_answer": "The logical level describes what data is stored in the database and the relationships among that data, without requiring users to know physical storage details.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      3
+    ],
+    "relevant_chunk_ids": [
+      11
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-007",
+    "question": "What is the view or external level in the three-schema architecture?",
+    "expected_answer": "It is the highest abstraction level and provides different users or user groups with views containing only the database information relevant to them.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      3
+    ],
+    "relevant_chunk_ids": [
+      9,
+      11,
+      12
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-008",
+    "question": "What is a database schema, and how is it different from database data?",
+    "expected_answer": "A schema is the structural description or overall design of a database and changes infrequently, whereas the actual data may change frequently.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      4
+    ],
+    "relevant_chunk_ids": [
+      15
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-009",
+    "question": "What is physical data independence?",
+    "expected_answer": "Physical data independence means changes to the physical schema or storage structures should not require changes to the logical schema or application programs.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      4
+    ],
+    "relevant_chunk_ids": [
+      15
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-010",
+    "question": "What is a data model in DBMS?",
+    "expected_answer": "A data model is a collection of conceptual tools for describing database structure, relationships, semantics and consistency constraints; examples include ER and relational models.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      4,
+      6
+    ],
+    "relevant_chunk_ids": [
+      16
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-011",
+    "question": "What is the role of DDL?",
+    "expected_answer": "Data Definition Language is used to define or specify the database schema and its structure.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      4
+    ],
+    "relevant_chunk_ids": [
+      16
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-012",
+    "question": "What is the role of DML?",
+    "expected_answer": "Data Manipulation Language is used to express database queries and data updates or modifications.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      4
+    ],
+    "relevant_chunk_ids": [
+      16,
+      17
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-013",
+    "question": "What are the main components of a three-tier database application architecture?",
+    "expected_answer": "The three logical components are the client or frontend, an application server containing business logic, and the database system. The client communicates with the application server, which accesses the database.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      5
+    ],
+    "relevant_chunk_ids": [
+      21,
+      22
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-014",
+    "question": "Why is three-tier architecture useful for web applications?",
+    "expected_answer": "It separates the client from direct database access, places business logic in the application server, and can improve scalability, data integrity and security.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      5
+    ],
+    "relevant_chunk_ids": [
+      22
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-015",
+    "question": "What is an entity in the ER model?",
+    "expected_answer": "An entity is a distinguishable real-world object or thing, such as a student, that can be uniquely identified.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      6
+    ],
+    "relevant_chunk_ids": [
+      25
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-016",
+    "question": "How does a weak entity differ from a strong entity?",
+    "expected_answer": "A strong entity can be uniquely identified by its own attributes, while a weak entity cannot be uniquely identified by its own attributes and depends on a strong entity.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      6
+    ],
+    "relevant_chunk_ids": [
+      26
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-017",
+    "question": "What does a NULL value represent for an entity attribute?",
+    "expected_answer": "NULL can mean that an attribute is not applicable or that its value is unknown or missing.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      7
+    ],
+    "relevant_chunk_ids": [
+      30
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-018",
+    "question": "What is specialisation in an extended ER model?",
+    "expected_answer": "Specialisation divides a higher-level entity set into more specific sub-entity sets based on distinguishing characteristics.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      9
+    ],
+    "relevant_chunk_ids": [
+      37
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-019",
+    "question": "How does the relational model organize data?",
+    "expected_answer": "The relational model organizes data into relations or tables. Rows represent tuples or records, and columns represent attributes.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      10
+    ],
+    "relevant_chunk_ids": [
+      42,
+      43
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-020",
+    "question": "What is a tuple in a relational database?",
+    "expected_answer": "A tuple is a single row in a relation or table and represents one record or data point.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      10
+    ],
+    "relevant_chunk_ids": [
+      42
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-021",
+    "question": "What is a referential integrity constraint?",
+    "expected_answer": "It ensures that a foreign-key value in a referencing relation corresponds to an existing referenced key value, maintaining consistency between relations.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      11
+    ],
+    "relevant_chunk_ids": [
+      47
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-022",
+    "question": "How can an ER model be converted into a relational model?",
+    "expected_answer": "The ER design is mapped into tables, with entity sets represented as relations and keys and relationship attributes represented in the corresponding tables according to mapping rules.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      12,
+      13
+    ],
+    "relevant_chunk_ids": [
+      51
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-023",
+    "question": "What does SQL stand for and what is it used for?",
+    "expected_answer": "SQL stands for Structured Query Language and is used to access and manipulate data in relational databases.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      14
+    ],
+    "relevant_chunk_ids": [
+      59
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-024",
+    "question": "What do CRUD operations mean in database applications?",
+    "expected_answer": "CRUD means Create, Read, Update and Delete: inserting records, retrieving records, modifying records and removing records.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      14
+    ],
+    "relevant_chunk_ids": [
+      59
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-025",
+    "question": "What is the purpose of the SELECT statement?",
+    "expected_answer": "SELECT retrieves a set of columns or expressions from a table or other query source.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      16
+    ],
+    "relevant_chunk_ids": [
+      71
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-026",
+    "question": "Can SELECT be used without a user-defined table in MySQL according to the notes?",
+    "expected_answer": "Yes. The notes describe using a DUAL dummy table, and show that simple expressions can also be selected without referring to a user-defined table.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      16
+    ],
+    "relevant_chunk_ids": [
+      69
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-027",
+    "question": "What is the purpose of the HAVING clause?",
+    "expected_answer": "HAVING filters groups produced by GROUP BY, commonly using conditions on aggregate results such as COUNT.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      17
+    ],
+    "relevant_chunk_ids": [
+      73
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-028",
+    "question": "How does HAVING differ from WHERE?",
+    "expected_answer": "WHERE filters rows before grouping, whereas HAVING filters groups after GROUP BY and can apply conditions to aggregate values.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      17
+    ],
+    "relevant_chunk_ids": [
+      73,
+      74
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-029",
+    "question": "What does the DEFAULT constraint do in a table definition?",
+    "expected_answer": "DEFAULT specifies a value that is assigned to a column when an insert does not provide a value for that column.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      18
+    ],
+    "relevant_chunk_ids": [
+      77
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-030",
+    "question": "What is the effect of ON DELETE CASCADE on a foreign key?",
+    "expected_answer": "ON DELETE CASCADE automatically deletes referencing child rows when the referenced parent row is deleted.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      19
+    ],
+    "relevant_chunk_ids": [
+      81
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-031",
+    "question": "What is a self join used for?",
+    "expected_answer": "A self join joins a table to itself, allowing relationships between rows in the same table to be queried.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      20
+    ],
+    "relevant_chunk_ids": [
+      86
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-032",
+    "question": "What is a subquery in SQL?",
+    "expected_answer": "A subquery is a query nested inside another query; the notes discuss using subqueries in clauses such as FROM and SELECT.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      21
+    ],
+    "relevant_chunk_ids": [
+      90
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-033",
+    "question": "What is a functional dependency?",
+    "expected_answer": "A functional dependency describes a relationship in which one set of attributes determines another set of attributes; the determinant is on the left and the dependent attributes are on the right.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      22
+    ],
+    "relevant_chunk_ids": [
+      96
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-034",
+    "question": "What condition must a relation satisfy to be in Second Normal Form?",
+    "expected_answer": "A relation must first be in 1NF and must have no partial dependency; every non-prime attribute must be fully dependent on the candidate key.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      23
+    ],
+    "relevant_chunk_ids": [
+      101
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-035",
+    "question": "What condition distinguishes Third Normal Form in the notes?",
+    "expected_answer": "A relation must be in 2NF and must not contain transitive dependency of non-prime attributes on a candidate key.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      23
+    ],
+    "relevant_chunk_ids": [
+      101
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-036",
+    "question": "What is a database transaction?",
+    "expected_answer": "A transaction is a logical unit of work consisting of one or more SQL statements whose operations are treated as a sequence that succeeds or fails as a unit.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      24
+    ],
+    "relevant_chunk_ids": [
+      104
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-037",
+    "question": "What does it mean when a transaction is committed?",
+    "expected_answer": "A committed transaction has made its updates permanent in the database, and the database reaches a new consistent state.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      25
+    ],
+    "relevant_chunk_ids": [
+      108
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-038",
+    "question": "What is the purpose of a rollback?",
+    "expected_answer": "Rollback reverses the uncommitted changes of a transaction so that incomplete or failed work is not retained as permanent database state.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      24,
+      25
+    ],
+    "relevant_chunk_ids": [
+      108
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-039",
+    "question": "Which DBMS component or mechanism supports atomicity and durability during recovery?",
+    "expected_answer": "The recovery mechanism component of a DBMS supports atomicity and durability; the notes introduce shadow-copy schemes as one recovery approach.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      26
+    ],
+    "relevant_chunk_ids": [
+      110
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-040",
+    "question": "Why is indexing used in a database?",
+    "expected_answer": "Indexing reduces the number of disk accesses needed to process queries and helps locate and retrieve table data more quickly, especially for reads.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      27
+    ],
+    "relevant_chunk_ids": [
+      118
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-041",
+    "question": "What are two disadvantages of database indexing?",
+    "expected_answer": "Indexes require additional storage space and can slow INSERT, DELETE and UPDATE operations because index structures must also be maintained.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      28
+    ],
+    "relevant_chunk_ids": [
+      125
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-042",
+    "question": "What are the main categories of NoSQL data models listed in the notes?",
+    "expected_answer": "The main categories are document, key-value, wide-column and graph data models.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      29,
+      30
+    ],
+    "relevant_chunk_ids": [
+      127
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-043",
+    "question": "Does NoSQL necessarily mean that a database cannot support ACID transactions?",
+    "expected_answer": "No. The notes point out that some NoSQL databases, including MongoDB, support ACID transactions.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      30
+    ],
+    "relevant_chunk_ids": [
+      135
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-044",
+    "question": "What is database clustering?",
+    "expected_answer": "Database clustering combines multiple servers or instances that connect to or work with a database to handle greater data volumes or request loads than one server can manage.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      34
+    ],
+    "relevant_chunk_ids": [
+      162
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-045",
+    "question": "What is the difference between partitioning and sharding as introduced in the notes?",
+    "expected_answer": "Partitioning divides a large database table or dataset into smaller partitions. Sharding distributes portions of data across multiple machines or database instances for horizontal scaling.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      35,
+      46
+    ],
+    "relevant_chunk_ids": [
+      167,
+      168,
+      169,
+      182
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-046",
+    "question": "What is vertical scaling or scale-up?",
+    "expected_answer": "Vertical scaling upgrades the resources of one machine, for example by increasing RAM or storage capacity; its cost can rise substantially as resources are increased.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      42
+    ],
+    "relevant_chunk_ids": [
+      178
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-047",
+    "question": "How does CQRS distribute database read and write operations in the described scaling pattern?",
+    "expected_answer": "CQRS separates read and write workloads: writes go to the primary database, while read queries are served by replicas.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      43
+    ],
+    "relevant_chunk_ids": [
+      179
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-048",
+    "question": "What is horizontal scaling or scale-out?",
+    "expected_answer": "Horizontal scaling adds multiple machines or shards, with each machine holding part of the data while using a common database schema; locality and replication can support performance and recovery.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      46
+    ],
+    "relevant_chunk_ids": [
+      182
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-049",
+    "question": "What are the three properties in the CAP theorem?",
+    "expected_answer": "The CAP theorem concerns Consistency, Availability and Partition Tolerance. The notes state that a distributed system cannot guarantee all three simultaneously during a network partition.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      48
+    ],
+    "relevant_chunk_ids": [
+      187
+    ],
+    "relevance_status": "provisional_keyword_based"
+  },
+  {
+    "id": "dbms-050",
+    "question": "In a master-slave database setup, where are writes and reads normally directed?",
+    "expected_answer": "Writes are directed to the master, which holds the latest data, while read operations are served by slave replicas; replication distributes data from master to slaves.",
+    "document_id": "doc_000ea43f4ea64a758b7960eb340793b7",
+    "source": "DBMS_Full_Notes.pdf",
+    "relevant_pages": [
+      49
+    ],
+    "relevant_chunk_ids": [
+      193
+    ],
+    "relevance_status": "provisional_keyword_based"
+  }
+]

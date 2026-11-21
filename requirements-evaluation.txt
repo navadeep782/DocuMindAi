@@ -1,0 +1,11 @@
+# Runtime dependencies used by the current KnowledgeHub AI backend and benchmark.
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+numpy>=1.26.0
+pymupdf>=1.24.0
+langchain-text-splitters>=0.2.0
+fastapi>=0.110.0
+python-multipart>=0.0.9
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+pytest>=8.0.0

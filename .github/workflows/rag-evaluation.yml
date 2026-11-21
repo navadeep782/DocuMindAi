@@ -1,0 +1,56 @@
+name: RAG Evaluation
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "app/services/**"
+      - "evaluation/**"
+      - "scripts/run_rag_evaluation.py"
+      - "requirements-evaluation.txt"
+      - ".github/workflows/rag-evaluation.yml"
+  pull_request:
+    branches: [main, master]
+    paths:
+      - "app/services/**"
+      - "evaluation/**"
+      - "scripts/run_rag_evaluation.py"
+      - "requirements-evaluation.txt"
+      - ".github/workflows/rag-evaluation.yml"
+  workflow_dispatch:
+
+jobs:
+  retrieval-benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-evaluation.txt
+
+      - name: Install evaluation dependencies
+        run: pip install -r requirements-evaluation.txt
+
+      - name: Run evaluation unit tests
+        run: python -m pytest -q tests/test_evaluation_service.py tests/test_embedding_service.py
+
+      - name: Run 50-question benchmark across four retrieval methods
+        env:
+          RAG_MIN_HIT_RATE: "0.50"
+          HF_HOME: ${{ runner.temp }}/huggingface
+        run: python scripts/run_rag_evaluation.py --top-k 5 --min-hit-rate 0.50 --output evaluation/reports/ci-${{ github.run_number }}.json
+
+      - name: Upload evaluation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rag-evaluation-report-${{ github.run_number }}
+          path: evaluation/reports/
+          if-no-files-found: warn
+          retention-days: 30
